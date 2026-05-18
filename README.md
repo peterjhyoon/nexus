@@ -77,6 +77,7 @@ npm run dev
 - Node.js
 - Express.js
 - TypeScript
+- SQLite (persistent data storage)
 - ts-node-dev
 
 **Available Scripts:**
@@ -86,6 +87,7 @@ npm run dev
 - `express` - Web framework
 - `cors` - CORS middleware
 - `dotenv` - Environment variable management
+- `sqlite3` - SQLite database driver
 
 **Development:**
 ```bash
