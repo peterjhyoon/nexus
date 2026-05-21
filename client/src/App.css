@@ -83,8 +83,9 @@ body {
 .app-layout {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  flex: 1;
   overflow: hidden;
+  min-height: 0;
 }
 
 .main-content {
@@ -93,12 +94,14 @@ body {
   grid-template-columns: 280px 1fr;
   gap: var(--spacing-lg);
   overflow: hidden;
+  min-height: 0;
 }
 
 .tasks-sidebar {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-height: 0;
 }
 
 .tasks-sidebar .container {
@@ -138,12 +141,19 @@ body {
 
 .task-details-panel {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
 }
 
 .task-details-panel .container {
   max-width: 100%;
   padding: 0;
   height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .container {

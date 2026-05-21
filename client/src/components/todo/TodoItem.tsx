@@ -1,5 +1,5 @@
-import type { Todo } from '../services/todoService';
-import { todoService } from '../services/todoService';
+import type { Todo } from '../../services/todoService';
+import { todoService } from '../../services/todoService';
 import './TodoItem.css';
 
 interface TodoItemProps {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { TodoForm } from './components/TodoForm';
-import { TodoList } from './components/TodoList';
-import { TaskDetails } from './components/TaskDetails';
+import { TodoForm } from './components/todo/TodoForm';
+import { TodoList } from './components/todo/TodoList';
+import { TaskDetails } from './components/task/TaskDetails';
 import type { Todo } from './services/todoService';
 import './App.css';
 

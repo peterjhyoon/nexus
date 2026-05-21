@@ -9,6 +9,7 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .task-details-empty {
@@ -16,6 +17,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  flex: 1;
   color: var(--color-text-light);
   font-size: 1rem;
   background: var(--color-bg-white);

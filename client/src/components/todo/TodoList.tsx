@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import type { Todo } from '../services/todoService';
-import { todoService } from '../services/todoService';
-import { FilterBar } from './FilterBar';
+import type { Todo } from '../../services/todoService';
+import { todoService } from '../../services/todoService';
+import { FilterBar } from '../filterbar/FilterBar';
 import './TodoList.css';
 
 interface TodoListProps {
